@@ -400,6 +400,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "jump_craft"
+    },
+    {
+      "name": "CobbleHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
