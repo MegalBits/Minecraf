@@ -23,9 +23,7 @@ public class SuperJumpOnKeyPressedProcedure extends MinecrafModElements.ModEleme
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if ((Math.random() > 0.9)) {
-			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 2, (int) 19, (false), (false)));
-		}
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 2, (int) 2, (false), (false)));
 	}
 }
