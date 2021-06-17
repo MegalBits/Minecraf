@@ -1,0 +1,7 @@
+{
+  "parent": "minecraf:custom/stv",
+  "textures": {
+    "0": "minecraf:blocks/steve",
+    "particle": "minecraf:items/steve"
+  }
+}

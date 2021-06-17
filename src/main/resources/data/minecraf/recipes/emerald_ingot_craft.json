@@ -1,0 +1,30 @@
+{
+  "group": "minecraf",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraf:emerald_ingot"
+    },
+    "1": {
+      "item": "minecraf:emerald_ingot"
+    },
+    "2": {
+      "item": "minecraf:emerald_ingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraf:emerald_pickaxe",
+    "count": 1
+  }
+}

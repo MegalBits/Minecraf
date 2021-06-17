@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraf:blocks/jumppad2",
+    "up": "minecraf:blocks/jumppad2",
+    "north": "minecraf:blocks/jumppad",
+    "east": "minecraf:blocks/jumppad",
+    "south": "minecraf:blocks/jumppad",
+    "west": "minecraf:blocks/jumppad",
+    "particle": "minecraf:blocks/jumppad2"
+  }
+}

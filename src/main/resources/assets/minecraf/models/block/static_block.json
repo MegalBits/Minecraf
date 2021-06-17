@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minecraf:blocks/static",
+    "particle": "minecraf:blocks/static"
+  }
+}

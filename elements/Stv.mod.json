@@ -1,0 +1,27 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "steve",
+    "customModelName": "stv:default",
+    "name": "Stv",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Minecraf"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 3,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 5.0,
+    "usageCount": 20,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

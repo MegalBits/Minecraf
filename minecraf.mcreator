@@ -1,0 +1,458 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Stpig",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stpig"
+    },
+    {
+      "name": "DiamondIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_ingot"
+    },
+    {
+      "name": "Minecraf",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecraf"
+    },
+    {
+      "name": "DiamondIngotCraft",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_ingot_craft"
+    },
+    {
+      "name": "DiamondIngotSmelt",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_ingot_smelt"
+    },
+    {
+      "name": "DiamondPickacks",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_pickacks"
+    },
+    {
+      "name": "DiamondPi",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_pi"
+    },
+    {
+      "name": "FishBarrelBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fish_barrel_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FishBarrel",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fish_barrel"
+    },
+    {
+      "name": "SuperJumpOnKeyPressed",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_jump_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SuperJump",
+      "type": "keybind",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_jump"
+    },
+    {
+      "name": "Stv",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stv"
+    },
+    {
+      "name": "StaticBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "static_block"
+    },
+    {
+      "name": "StaticBlockL",
+      "type": "loottable",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "static_block_l"
+    },
+    {
+      "name": "CreeperRightClickedInAir",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Creeper",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper"
+    },
+    {
+      "name": "EmeraldIngot",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_ingot"
+    },
+    {
+      "name": "EmeraldPickaxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_pickaxe"
+    },
+    {
+      "name": "EmeraldIngCraf",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_ing_craf"
+    },
+    {
+      "name": "EmeraldIngotCraft",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_ingot_craft"
+    },
+    {
+      "name": "EmeraldA",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_a",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EmeraldArmourcraft",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armourcraft"
+    },
+    {
+      "name": "E",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "e"
+    },
+    {
+      "name": "A",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a"
+    },
+    {
+      "name": "Aa",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aa"
+    },
+    {
+      "name": "Cobble",
+      "type": "armor",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Cobbl",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobbl"
+    },
+    {
+      "name": "Cc",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cc"
+    },
+    {
+      "name": "Caaaa",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "caaaa"
+    },
+    {
+      "name": "Che",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "che"
+    },
+    {
+      "name": "Wooden",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Wo",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wo"
+    },
+    {
+      "name": "Aaa",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aaa"
+    },
+    {
+      "name": "A1",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_1"
+    },
+    {
+      "name": "Aaaaaaa",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aaaaaaa"
+    },
+    {
+      "name": "GreenParticle",
+      "type": "particle",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_particle"
+    },
+    {
+      "name": "Jump",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jump"
+    },
+    {
+      "name": "JumpCraft",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jump_craft"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraf.emerald_pickaxe": "Emerald Pickaxe",
+      "item.minecraf.diamond_ingot": "Diamond Ingot",
+      "item.minecraf.cobble_boots": "Cobble Boots",
+      "item.minecraf.emerald_a_chestplate": "Emerald Chestplate",
+      "entity.minecraf.stpig": "Stpig",
+      "item.minecraf.stv": "Stv",
+      "item.minecraf.creeper": "Creeper",
+      "block.minecraf.static_block": "Static Block",
+      "itemGroup.tabminecraf": "Minecraf",
+      "item.minecraf.cobble_helmet": "Cobble Helmet",
+      "item.minecraf.diamond_pickacks": "Diamond Pickacks",
+      "item.minecraf.emerald_a_helmet": "Emerald Helmet",
+      "item.minecraf.cobble_leggings": "Cobble Leggings",
+      "item.minecraf.emerald_a_leggings": "Emerald Leggings",
+      "block.minecraf.fish_barrel": "Fish Barrel",
+      "item.minecraf.stpig_spawn_egg": "Stpig Spawn Egg",
+      "item.minecraf.wooden_boots": "Wooden Boots",
+      "item.minecraf.emerald_a_boots": "Emerald Boots",
+      "item.minecraf.wooden_helmet": "Wooden Helmet",
+      "key.minecraf.super_jump": "Super Jump",
+      "item.minecraf.cobble_chestplate": "Cobble Chestplate",
+      "item.minecraf.wooden_leggings": "Wooden Leggings",
+      "item.minecraf.wooden_chestplate": "Wooden Chestplate",
+      "item.minecraf.emerald_ingot": "Emerald Ingot",
+      "block.minecraf.jump": "Jump"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minecraf",
+    "modName": "minecraf",
+    "version": "1.0.0",
+    "author": "GERARD, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.minecraf",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

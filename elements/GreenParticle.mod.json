@@ -1,0 +1,21 @@
+{
+  "_fv": 18,
+  "_type": "particle",
+  "definition": {
+    "texture": "jumpparticle.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.1,
+    "height": 0.1,
+    "scale": 0.3,
+    "speedFactor": 2.0,
+    "gravity": 0.1,
+    "maxAge": 10,
+    "maxAgeDiff": 0,
+    "angularVelocity": 1.0,
+    "angularAcceleration": 1.0,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "OPAQUE"
+  }
+}
