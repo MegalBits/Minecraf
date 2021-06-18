@@ -103,32 +103,6 @@
       "registry_name": "fish_barrel"
     },
     {
-      "name": "SuperJumpOnKeyPressed",
-      "type": "procedure",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "super_jump_on_key_pressed",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "SuperJump",
-      "type": "keybind",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "super_jump"
-    },
-    {
       "name": "Stv",
       "type": "tool",
       "sortid": 10,
@@ -402,21 +376,13 @@
       "registry_name": "jump_craft"
     },
     {
-      "name": "CobbleHelmetTickEvent",
-      "type": "procedure",
+      "name": "Crepig",
+      "type": "mob",
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cobble_helmet_tick_event",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "registry_name": "crepig"
     }
   ],
   "variable_elements": [],
@@ -431,6 +397,7 @@
       "item.minecraf.stv": "Stv",
       "item.minecraf.creeper": "Creeper",
       "block.minecraf.static_block": "Static Block",
+      "item.minecraf.crepig_spawn_egg": "Crepig Spawn Egg",
       "itemGroup.tabminecraf": "Minecraf",
       "item.minecraf.cobble_helmet": "Cobble Helmet",
       "item.minecraf.diamond_pickacks": "Diamond Pickacks",
@@ -441,8 +408,8 @@
       "item.minecraf.stpig_spawn_egg": "Stpig Spawn Egg",
       "item.minecraf.wooden_boots": "Wooden Boots",
       "item.minecraf.emerald_a_boots": "Emerald Boots",
+      "entity.minecraf.crepig": "Crepig",
       "item.minecraf.wooden_helmet": "Wooden Helmet",
-      "key.minecraf.super_jump": "Super Jump",
       "item.minecraf.cobble_chestplate": "Cobble Chestplate",
       "item.minecraf.wooden_leggings": "Wooden Leggings",
       "item.minecraf.wooden_chestplate": "Wooden Chestplate",

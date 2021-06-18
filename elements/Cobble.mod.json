@@ -10,18 +10,6 @@
     "textureLeggings": "cobble_leggings",
     "enableBoots": true,
     "textureBoots": "cobble_boots",
-    "onHelmetTick": {
-      "name": "CobbleHelmetTickEvent"
-    },
-    "onBodyTick": {
-      "name": "CobbleHelmetTickEvent"
-    },
-    "onLeggingsTick": {
-      "name": "CobbleHelmetTickEvent"
-    },
-    "onBootsTick": {
-      "name": "CobbleHelmetTickEvent"
-    },
     "creativeTab": {
       "value": "CUSTOM:Minecraf"
     },
