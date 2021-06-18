@@ -383,6 +383,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crepig"
+    },
+    {
+      "name": "Spear",
+      "type": "gun",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spear"
+    },
+    {
+      "name": "Spearc",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spearc"
     }
   ],
   "variable_elements": [],
@@ -410,6 +428,7 @@
       "item.minecraf.emerald_a_boots": "Emerald Boots",
       "entity.minecraf.crepig": "Crepig",
       "item.minecraf.wooden_helmet": "Wooden Helmet",
+      "item.minecraf.spear": "Spear",
       "item.minecraf.cobble_chestplate": "Cobble Chestplate",
       "item.minecraf.wooden_leggings": "Wooden Leggings",
       "item.minecraf.wooden_chestplate": "Wooden Chestplate",

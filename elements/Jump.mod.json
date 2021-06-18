@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "CLOTH"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -82,7 +82,7 @@
       "value": "CUSTOM:GreenParticle"
     },
     "particleSpawningShape": "Top",
-    "particleSpawningRadious": 0.5000000014901161,
+    "particleSpawningRadious": 0.8000000014901161,
     "particleAmount": 20,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

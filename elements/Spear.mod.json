@@ -1,0 +1,37 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "spear",
+    "customModelName": "Normal",
+    "name": "Spear",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Minecraf"
+    },
+    "stackSize": 3,
+    "ammoItem": {
+      "value": "CUSTOM:Spear"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "item.trident.throw"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 3.9999999999999996,
+    "bulletPower": 0.6,
+    "bulletDamage": 3.5,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Spear"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

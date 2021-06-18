@@ -58,7 +58,7 @@ public class CrepigEntity extends MinecrafModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -12417749, -16777216, new Item.Properties().group(MinecrafItemGroup.tab))
+		elements.items.add(() -> new SpawnEggItem(entity, -13108, -16777216, new Item.Properties().group(MinecrafItemGroup.tab))
 				.setRegistryName("crepig_spawn_egg"));
 	}
 

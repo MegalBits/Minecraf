@@ -140,6 +140,54 @@
       },
       {
         "value": "Blocks.BEDROCK"
+      },
+      {
+        "value": "Blocks.NETHER_GOLD_ORE"
+      },
+      {
+        "value": "Blocks.GILDED_BLACKSTONE"
+      },
+      {
+        "value": "Blocks.QUARTZ_ORE"
+      },
+      {
+        "value": "Blocks.MAGMA"
+      },
+      {
+        "value": "Blocks.SAND#1"
+      },
+      {
+        "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "Blocks.GRAVEL"
+      },
+      {
+        "value": "Blocks.SANDSTONE#0"
+      },
+      {
+        "value": "Blocks.SMOOTH_SANDSTONE"
+      },
+      {
+        "value": "Blocks.RED_SANDSTONE#0"
+      },
+      {
+        "value": "Blocks.SMOOTH_RED_SANDSTONE"
+      },
+      {
+        "value": "Blocks.CRIMSON_NYLIUM"
+      },
+      {
+        "value": "Blocks.WARPED_NYLIUM"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Blocks.BASALT"
+      },
+      {
+        "value": "Blocks.BLACKSTONE"
       }
     ],
     "frequencyPerChunks": 20,

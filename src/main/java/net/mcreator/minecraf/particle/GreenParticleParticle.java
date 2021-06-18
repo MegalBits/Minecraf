@@ -46,16 +46,16 @@ public class GreenParticleParticle extends MinecrafModElements.ModElement {
 		protected CustomParticle(ClientWorld world, double x, double y, double z, double vx, double vy, double vz, IAnimatedSprite spriteSet) {
 			super(world, x, y, z);
 			this.spriteSet = spriteSet;
-			this.setSize((float) 0.2, (float) 0.2);
-			this.particleScale *= (float) 0.8;
+			this.setSize((float) 0.4, (float) 0.4);
+			this.particleScale *= (float) 1.2;
 			this.maxAge = 10;
 			this.particleGravity = (float) 0.1;
 			this.canCollide = true;
 			this.motionX = vx * 2;
 			this.motionY = vy * 2;
 			this.motionZ = vz * 2;
-			this.angularVelocity = (float) 1;
-			this.angularAcceleration = (float) 1;
+			this.angularVelocity = (float) 0.3;
+			this.angularAcceleration = (float) 0.1;
 			this.selectSpriteRandomly(spriteSet);
 		}
 

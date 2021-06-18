@@ -41,7 +41,7 @@ public class JumpBlock extends MinecrafModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.GLASS).hardnessAndResistance(2f, 1f).setLightLevel(s -> 0).jumpFactor(5f));
+			super(Block.Properties.create(Material.IRON).sound(SoundType.CLOTH).hardnessAndResistance(2f, 1f).setLightLevel(s -> 0).jumpFactor(5f));
 			setRegistryName("jump");
 		}
 
@@ -63,9 +63,9 @@ public class JumpBlock extends MinecrafModElements.ModElement {
 			int z = pos.getZ();
 			if (true)
 				for (int l = 0; l < 20; ++l) {
-					double d0 = (double) ((float) x + 0.5) + (double) (random.nextFloat() - 0.5) * 0.5000000014901161D;
-					double d1 = ((double) ((float) y + 0.7) + (double) (random.nextFloat() - 0.5) * 0.5000000014901161D) + 0.5;
-					double d2 = (double) ((float) z + 0.5) + (double) (random.nextFloat() - 0.5) * 0.5000000014901161D;
+					double d0 = (double) ((float) x + 0.5) + (double) (random.nextFloat() - 0.5) * 0.8000000014901161D;
+					double d1 = ((double) ((float) y + 0.7) + (double) (random.nextFloat() - 0.5) * 0.8000000014901161D) + 0.5;
+					double d2 = (double) ((float) z + 0.5) + (double) (random.nextFloat() - 0.5) * 0.8000000014901161D;
 					world.addParticle(GreenParticleParticle.particle, d0, d1, d2, 0, 0, 0);
 				}
 		}

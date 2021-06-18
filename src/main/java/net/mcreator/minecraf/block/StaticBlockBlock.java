@@ -87,6 +87,38 @@ public class StaticBlockBlock extends MinecrafModElements.ModElement {
 				blockCriteria = true;
 			if (blockAt.getBlock() == Blocks.BEDROCK.getDefaultState().getBlock())
 				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.NETHER_GOLD_ORE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.GILDED_BLACKSTONE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.NETHER_QUARTZ_ORE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.MAGMA_BLOCK.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.RED_SAND.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.SAND.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.GRAVEL.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.SANDSTONE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.SMOOTH_SANDSTONE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.RED_SANDSTONE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.SMOOTH_RED_SANDSTONE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.CRIMSON_NYLIUM.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.WARPED_NYLIUM.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.NETHERRACK.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.BASALT.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.BLACKSTONE.getDefaultState().getBlock())
+				blockCriteria = true;
 			return blockCriteria;
 		}
 
