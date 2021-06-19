@@ -5,7 +5,7 @@
     "structure": "web",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 70000,
+    "spawnProbability": 30000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 16,
     "spawnLocation": "Ground",

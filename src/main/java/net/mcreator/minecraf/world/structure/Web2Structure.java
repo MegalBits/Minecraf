@@ -34,11 +34,11 @@ import net.mcreator.minecraf.MinecrafModElements;
 import java.util.Random;
 
 @MinecrafModElements.ModElement.Tag
-public class WebStructure extends MinecrafModElements.ModElement {
+public class Web2Structure extends MinecrafModElements.ModElement {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
-	public WebStructure(MinecrafModElements instance) {
-		super(instance, 44);
+	public Web2Structure(MinecrafModElements instance) {
+		super(instance, 51);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -56,13 +56,13 @@ public class WebStructure extends MinecrafModElements.ModElement {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 30000) {
+					if ((random.nextInt(1000000) + 1) <= 70000) {
 						int count = random.nextInt(16) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
 							int k = ck + random.nextInt(16);
 							int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
-							j -= 1;
+							j = Math.abs(random.nextInt(Math.max(1, j)) - 24);
 							Rotation rotation = Rotation.values()[random.nextInt(3)];
 							Mirror mirror = Mirror.values()[random.nextInt(2)];
 							BlockPos spawnTo = new BlockPos(i + 0, j + 1, k + 0);
@@ -84,12 +84,12 @@ public class WebStructure extends MinecrafModElements.ModElement {
 			};
 			configuredFeature = feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG));
-			event.getRegistry().register(feature.setRegistryName("web"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("minecraf:web"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("web_2"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("minecraf:web_2"), configuredFeature);
 		}
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		event.getGeneration().getFeatures(GenerationStage.Decoration.SURFACE_STRUCTURES).add(() -> configuredFeature);
+		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_STRUCTURES).add(() -> configuredFeature);
 	}
 }
