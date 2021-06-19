@@ -401,6 +401,97 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spearc"
+    },
+    {
+      "name": "WaterBucketRightClickedInAir",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_bucket_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterBucket",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_bucket"
+    },
+    {
+      "name": "WatBu",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wat_bu"
+    },
+    {
+      "name": "HotPotatoRightClickedInAir",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hot_potato_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotPotatoItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hot_potato_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotPotato",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hot_potato"
+    },
+    {
+      "name": "HotPotatoCraft",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hot_potato_craft"
     }
   ],
   "variable_elements": [],
@@ -413,6 +504,7 @@
       "item.minecraf.emerald_a_chestplate": "Emerald Chestplate",
       "entity.minecraf.stpig": "Stpig",
       "item.minecraf.stv": "Stv",
+      "item.minecraf.water_bucket": "Water Bucket",
       "item.minecraf.creeper": "Creeper",
       "block.minecraf.static_block": "Static Block",
       "item.minecraf.crepig_spawn_egg": "Crepig Spawn Egg",
@@ -423,6 +515,7 @@
       "item.minecraf.cobble_leggings": "Cobble Leggings",
       "item.minecraf.emerald_a_leggings": "Emerald Leggings",
       "block.minecraf.fish_barrel": "Fish Barrel",
+      "item.minecraf.hot_potato": "Hot Potato",
       "item.minecraf.stpig_spawn_egg": "Stpig Spawn Egg",
       "item.minecraf.wooden_boots": "Wooden Boots",
       "item.minecraf.emerald_a_boots": "Emerald Boots",

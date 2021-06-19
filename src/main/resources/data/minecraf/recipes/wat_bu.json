@@ -1,0 +1,16 @@
+{
+  "group": "minecraf",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "minecraf:water_bucket",
+    "count": 1
+  }
+}
