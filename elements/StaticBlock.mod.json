@@ -190,8 +190,8 @@
         "value": "Blocks.BLACKSTONE"
       }
     ],
-    "frequencyPerChunks": 20,
-    "frequencyOnChunk": 20,
+    "frequencyPerChunks": 32,
+    "frequencyOnChunk": 32,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 256
   }

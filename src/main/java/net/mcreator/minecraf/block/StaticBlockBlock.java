@@ -147,8 +147,8 @@ public class StaticBlockBlock extends MinecrafModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 20)).range(256)
-					.square().func_242731_b(20);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 32)).range(256)
+					.square().func_242731_b(32);
 			event.getRegistry().register(feature.setRegistryName("static_block"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("minecraf:static_block"), configuredFeature);
 		}

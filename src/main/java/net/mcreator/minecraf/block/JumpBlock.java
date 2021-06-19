@@ -62,7 +62,7 @@ public class JumpBlock extends MinecrafModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			if (true)
-				for (int l = 0; l < 20; ++l) {
+				for (int l = 0; l < 1; ++l) {
 					double d0 = (double) ((float) x + 0.5) + (double) (random.nextFloat() - 0.5) * 0.8000000014901161D;
 					double d1 = ((double) ((float) y + 0.7) + (double) (random.nextFloat() - 0.5) * 0.8000000014901161D) + 0.5;
 					double d2 = (double) ((float) z + 0.5) + (double) (random.nextFloat() - 0.5) * 0.8000000014901161D;

@@ -83,7 +83,7 @@
     },
     "particleSpawningShape": "Top",
     "particleSpawningRadious": 0.8000000014901161,
-    "particleAmount": 20,
+    "particleAmount": 1,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

@@ -492,6 +492,60 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hot_potato_craft"
+    },
+    {
+      "name": "Web",
+      "type": "structure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "web"
+    },
+    {
+      "name": "Pumpkin",
+      "type": "structure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin"
+    },
+    {
+      "name": "Cake",
+      "type": "structure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cake"
+    },
+    {
+      "name": "Bre",
+      "type": "structure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bre"
+    },
+    {
+      "name": "Crystal",
+      "type": "structure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal"
+    },
+    {
+      "name": "TntTrap",
+      "type": "structure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tnt_trap"
     }
   ],
   "variable_elements": [],
@@ -503,8 +557,8 @@
       "item.minecraf.cobble_boots": "Cobble Boots",
       "item.minecraf.emerald_a_chestplate": "Emerald Chestplate",
       "entity.minecraf.stpig": "Stpig",
-      "item.minecraf.stv": "Stv",
       "item.minecraf.water_bucket": "Water Bucket",
+      "item.minecraf.stv": "Stv",
       "item.minecraf.creeper": "Creeper",
       "block.minecraf.static_block": "Static Block",
       "item.minecraf.crepig_spawn_egg": "Crepig Spawn Egg",

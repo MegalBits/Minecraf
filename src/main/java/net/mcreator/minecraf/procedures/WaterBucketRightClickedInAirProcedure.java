@@ -34,6 +34,13 @@ public class WaterBucketRightClickedInAirProcedure extends MinecrafModElements.M
 						"fill ~10 ~10 ~10 ~-10 ~-10 ~-10 water replace minecraft:air");
 			}
 		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"fill ~10 ~10 ~10 ~-10 ~-10 ~-10 water replace minecraft:water");
+			}
+		}
 		((itemstack)).shrink((int) 1);
 	}
 }

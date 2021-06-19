@@ -25,7 +25,21 @@ public class HotPotatoItemInInventoryTickProcedure extends MinecrafModElements.M
 			Entity _ent = entity;
 			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
 				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"execute at @p run setblock ~ ~ ~ fire");
+						"execute at @p run setblock ~ ~ ~ fire replace minecraft:air");
+			}
+		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"execute at @p run setblock ~ ~1 ~ fire replace minecraft:air");
+			}
+		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"execute at @p run setblock ~ ~ ~ fire replace minecraft:grass");
 			}
 		}
 	}
