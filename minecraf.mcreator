@@ -555,6 +555,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "web_2"
+    },
+    {
+      "name": "House",
+      "type": "structure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "house"
     }
   ],
   "variable_elements": [],
@@ -566,8 +575,8 @@
       "item.minecraf.cobble_boots": "Cobble Boots",
       "item.minecraf.emerald_a_chestplate": "Emerald Chestplate",
       "entity.minecraf.stpig": "Stpig",
-      "item.minecraf.stv": "Stv",
       "item.minecraf.water_bucket": "Water Bucket",
+      "item.minecraf.stv": "Stv",
       "item.minecraf.creeper": "Creeper",
       "block.minecraf.static_block": "Static Block",
       "item.minecraf.crepig_spawn_egg": "Crepig Spawn Egg",
